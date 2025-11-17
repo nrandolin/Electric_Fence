@@ -1,0 +1,54 @@
+<HTML>
+<HEAD>
+<font face = 'Arial'>
+<font size = '1.5'>
+</HEAD>
+<br>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<br> ** Solid FLOW_B Report/Record File **
+
+<BR>&nbsp;
+<br> Date/time : Mon Nov 17 13:53:43 2025
+<br> File path : C:\Users\nrand\OneDrive - Olin College of Engineering\Desktop\Electric_Fence\Insulator_v9\Default\Default_Advisor
+<br>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<br>
+<br>
+# FLOW ANALYSIS #
+<br>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<br>
+
+    Setting up boundary condition on gate ID = 1
+<br>
+<br>
+
+    Setting up boundary condition on gate ID = 2
+<br>
+<br>
+
+    Setting up boundary condition on gate ID = 3
+<br>
+<br>
+# FLOW ANALYSIS #
+<br>
+<br>
+   Fill time at 960 ms, part is 9 % filled, flow-rate is 5.459026 (cc/s),  Average Speed = 19.133282 (mm/s),  Pressure = 0.001779 (MPa)<br>
+<br>
+   Fill time at 2630 ms, part is 26 % filled, flow-rate is 5.459026 (cc/s),  Average Speed = 5.888742 (mm/s),  Pressure = 0.003140 (MPa)<br>
+<br>
+   Fill time at 3360 ms, part is 33 % filled, flow-rate is 5.459026 (cc/s),  Average Speed = 6.023840 (mm/s),  Pressure = 0.004463 (MPa)<br>
+<br>
+   Fill time at 9160 ms, part is 91 % filled, flow-rate is 5.459026 (cc/s),  Average Speed = 41.911630 (mm/s),  Pressure = 0.098822 (MPa)<br>
+<br>
+   Fill time at 9980 ms, part is 99 % filled, flow-rate is 0.894240 (cc/s),  Average Speed = 42.611238 (mm/s),  Pressure = 0.112214 (MPa)<br>
+<br>
+   Fill time at 10001 ms, part is 100 % filled, flow-rate is 0.779861 (cc/s),  Average Speed = 89.299649 (mm/s),  Pressure = 0.115365 (MPa)<br>
+<br>
+
+    Analysis completed.
+    Injection Pressure = 0.115365 (MPa), this part is 100% filled.
+<br>
+<br> Report File - C:\Users\nrand\OneDrive - Olin College of Engineering\Desktop\Electric_Fence\Insulator_v9\Default\Default_Advisor.UDM
+<br>_______________________________________________________________________________
+
+<br>###  Shell FLOW_B Analysis has Completed   ###
+</font>
+</HTML>

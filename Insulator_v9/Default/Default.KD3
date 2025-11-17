@@ -1,0 +1,943 @@
+<HTML>
+<HEAD>
+<font face= 'Arial'> 
+<font size= '1.5'> 
+</HEAD>
+<br> # Number of available cores=  20
+
+<br> # Requested number of threads=  20
+
+<br>
+ @@ Software FILL_E Release Time: 2023/5/19  0:7:52 @@
+
+<br>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<br> ** FILL_E Report/Record File **
+
+<BR>&nbsp;
+<br> Date/time : 2025/11/17  14:35:44
+<br> File path : C:\Users\nrand\OneDrive - Olin College of Engineering\Desktop\Electric_Fence\Insulator_v9\Default\Default
+<br> Software type : x64
+<br>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<br>
+ @@@   Solid FILL-PACK Analysis V2023   @@@    
+<br>
+# FILL Analysis ...
+
+<br>
+<b>
+<br>
+ # Solver parameter information ......   
+</b>
+<br>
+
+
+<br>
+      40000 000 Coolant Input boundary condition need to be specified for all the cooling channels in order to run the cool analysis.
+      = 0.00e+00 <br>
+      41000 000 *Calculating Parameter in following*(There is no need to change)
+      = 0.00e+00 <br>
+      41001 000 (*)Quick-Fill Calculation
+      = 1.00e+00 <br>
+      41101 000 Solver Type(1: AMG,  2: PCG-AMG)
+      = 1.00e+00  (necessary)
+<br>
+      41002 000 (*)Pressure/flow-rate relative error tolerance(1.E-4 ~ 1.E-2)
+      = 5.00e-03 <br>
+      41003 000 (*)Melt-temp. error tolerance(0.01 ~ 1.)
+      = 1.00e-01 <br>
+      41004 000 (*)Pressure/flow-rate iteration relaxation factor(0.1 ~ 0.5)
+      = 4.00e-01 <br>
+      41005 000 (*)Melt-temp. iteration relaxation factor(0.5 ~ 1.)
+      = 1.00e+00 <br>
+      41006 000 (*)Max. No. of non-linear iterations(40 ~ 100)
+      = 4.00e+01 <br>
+      41007 000 (*)No. of thickness layers (10 ~ 16)
+      = 1.50e+01 <br>
+      41008 000 Short shot (Factor of initial flow rate)
+      = 1.00e-02  (necessary)
+<br>
+      41009 000 (#)Pressure/Velocity residual error criteria(1.E-4 ~ 1.E-2)
+      = 1.00e-03  (necessary)
+<br>
+      41011 000 (#)Velocity field relaxation factor(0.1 ~ 1.0)
+      = 8.00e-01  (necessary)
+<br>
+      41012 000 (#)Pressure correction relaxation factor(0.05 ~0.8)
+      = 2.00e-01  (necessary)
+<br>
+      41013 000 (#)P/V field Max. iter. No.(40 ~ 100)
+      = 8.00e+01  (necessary)
+<br>
+      41014 000 (#)Time acceleration factor during filling process(0.1 ~ 10.)
+      = 2.00e+00  (necessary)
+<br>
+      41015 000 (#)Cell volume filled index during filling process(0.25 ~ 1.0)
+      = 7.50e-01  (necessary)
+<br>
+      41016 000 (#)Fiber calculation acceleration factor (1 ~ 5)
+      = 2.00e+00  (necessary)
+<br>
+      41017 000 (#)Finite volume solver(1: Coupled, 2: Segregated)
+      = 2.00e+00  (necessary)
+<br>
+      41018 000 (#)Mold temperature profile from COOL(1: Cycle Average, 2: Transient)
+      = 2.00e+00  (necessary)
+<br>
+      41019 000 (#)Volume of Fluid (VoF) Algorithm(1: Direct, 2: Indirect, 3: CICSAM)
+      = 3.00e+00  (necessary)
+<br>
+      41021 000 (#)Fiber Interaction Coefficient(0.0001 ~ 0.01.)
+      = 1.00e-03  (necessary)
+<br>
+      41022 000 Weld line face angle(90 ~ 150.)
+      = 1.50e+02 <br>
+      41023 000 Local profile resolution[X-Y Plot](1 ~ 3)
+      = 1.00e+00  (necessary)
+<br>
+      41024 000 (#)Core Material Tracking Algorithm(1: Implicit, 2: Explicit)
+      = 1.00e+00  (necessary)
+<br>
+      41025 000 (#)Compressibility in Filling Stage(1: Yes, 0: No)
+      = 1.00e+00  (necessary)
+<br>
+<b>
+<br>
+ # Geometric data information ......          
+</b>
+<br>
+<br>    Part Max. Extent	= 12.79  cm (x: 12.787526  y: 7.984869  z: 2.032000)
+<br>    Number of Cells 	= 19463  (Hexa=0,  Prism=7632,  Pyramid=0,  Tetra=11831)
+<br>    Number of Nodes 	= 6812
+<br>
+<b>
+<br>
+ # Cool process condition ......
+</b>
+
+<br>
+<br>
+      32001 202 Melt Temperature
+      = 2.50e+02 <br>
+      32002 202 Min. Coolant Temperature
+      = 2.50e+01 <br>
+      32003 202 Air Temperature
+      = 3.00e+01 <br>
+      32004 101 Mold Open Time
+      = 5.00e+00 <br>
+      32005 206 Average Coolant Flow Rate
+      = 1.50e+02 <br>
+      32006 000 Control type(1:Eject temp., 2:Cooling time)
+      = 1.00e+00 <br>
+      32007 202 Eject Temperature (if control type is "1")
+      = 9.00e+01 <br>
+      32008 101 Cooling Time (if control type is "2")
+      = 1.20e+01 <br>
+      32009 000 Exclude Runners from Ejection Temperature Control  (1: Yes, 0: No) (if control type is "1")
+      = 0.00e+00  (necessary)
+<br>
+      32010 001 %% volume below ejection temperature (if control type is "1")
+      = 9.00e+01  (necessary)
+<br>
+<b>
+<br>
+ # Warp process condition ......
+</b>
+
+<br>
+<br>
+      33001 202 Ambient Temperature
+      = 3.00e+01  (8.60e+01 oF) (necessary)
+<br>
+      31018 000 Gravity Downward Direction(+/-(X,Y,Z): +/-(1,2,3))
+      = -2.00e+00  (necessary)
+<br>
+<b>
+<br>
+ # Fill-Pack process condition ......
+</b>
+
+     Domain number  1  with  3  injection system(s)
+
+<br>
+<br>
+      31001 101 Filling Time
+      = 1.00e+01  (necessary)
+<br>
+      31002 202 Main Material Melt Temperature
+      = 2.50e+02  (4.82e+02 oF) (necessary)
+<br>
+      31003 202 Mold Wall Temperature
+      = 8.00e+01  (1.76e+02 oF) (necessary)
+<br>
+      31004 203 Injection Pressure Limit
+      = 8.20e+01  (1.19e+04 psi) (necessary)
+<br>
+      31005 206 Flow Rate Limit
+      = 4.00e+02  (1.35e+01 Ounces/sec) (necessary)
+<br>
+      31006 001 Fill/Pack Switch Point (% Filled Volume)
+      = 1.00e+02  (necessary)
+<br>
+      31007 000 Post-filling (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31008 101 Pressure Holding Time
+      = 1.25e+01  (necessary)
+<br>
+      31009 101 Total Time in Pack Stage
+      = 1.00e+02  (necessary)
+<br>
+      31010 000 Residual Stress Calculation (1: Yes, 0: No)
+      = 1.00e+00  (necessary)
+<br>
+      31011 000 Fiber Orientation Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31012 000 Fiber % by Weight or Volume (1: Weight, 2: Volume)
+      = 1.00e+00  (necessary)
+<br>
+      31013 001 Fiber % (from 0 to 100)
+      = 0.00e+00  (necessary)
+<br>
+      31014 000 Co-Injection (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31015 202 2nd Material Melt Temperature
+      = 2.30e+02  (4.46e+02 oF) (necessary)
+<br>
+      31016 000 Reactive Control Type (1: Conversion, 2: Time)
+      = 1.00e+00  (necessary)
+<br>
+      31017 001 Reactive Eject Conversion (x: 0 ~ 100, for Type "1")
+      = 8.00e+01  (necessary)
+<br>
+      31019 000 Multi general Gate Flow-rate/Press control (0: Equivalent, 1: Automatic)
+      = 1.00e+00  (necessary)
+<br>
+      31018 000 Gravity Downward Direction(+/-(X,Y,Z): +/-(1,2,3))
+      = -3.00e+00  (necessary)
+<br>
+      31023 000 Injection Domain
+      = 0.00e+00  (necessary)
+<br>
+      31024 000 Injection System
+      = 0.00e+00  (necessary)
+<br>
+      31025 000 Viscoelastic Birefringence Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31027 000 Auto Filling Time (1: Yes, 0: No)
+      = 1.00e+00 <br>
+      31028 000 Auto Packing Time (1: Yes, 0: No)
+      = 1.00e+00 <br>
+      31033 000 Venting Analysis (1: Yes, 0: No)
+      = 1.00e+00  (necessary)
+<br>
+      31034 203 Cavity Initial Air Pressure
+      = 1.01e-01  (1.47e+01 psi) (necessary)
+<br>
+      31035 202 Cavity Initial Air Temperature
+      = 3.00e+01  (8.60e+01 oF) (necessary)
+<br>
+      31036 000 Gold Wire Analysis(1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31037 000 Mold-Melt Heat Transfer Coefficient  (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31038 212 Mold-Melt Heat Transfer Coefficient : Filling stage
+      = 2.50e+03  (necessary)
+<br>
+      31039 212 Mold-Melt Heat Transfer Coefficient : Packing stage
+      = 2.50e+03  (necessary)
+<br>
+      31040 212 Mold-Melt Heat Transfer Coefficient : Detached stage(P=0)
+      = 2.50e+03  (necessary)
+<br>
+      31041 000 MicroCellular Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31042 000 MicroCellular Material (1: N2 SCF, 2: CO2 SCF)
+      = 1.00e+00  (necessary)
+<br>
+      31043 001 MicroCellular Foaming Switch Point (% Filled Volume)
+      = 9.70e+01  (necessary)
+<br>
+      31044 001 MicroCellular SCF (Supercritical Fluid) Concentration Weight % (g-SCF/g-Resin)
+      = 5.00e-01  (necessary)
+<br>
+      31045 000 Crystallization Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31046 000 Temperature Criteria for Short Shots (1: Yes, 0: No)
+      = 1.00e+00  (necessary)
+<br>
+      31047 202 Temperature Criteria for Short Shots
+      = 1.00e+02  (necessary)
+<br>
+      31048 204 Clamp Force Limit
+      = 6.00e+01  (necessary)
+<br>
+      31049 000 Suspension Particle Concentration Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31050 203 2nd Material Injection Pressure Limit
+      = 1.00e+02  (1.45e+04 psi) (necessary)
+<br>
+      31051 206 2nd Material Injection Flow Rate Limit
+      = 1.94e+02  (6.56e+00 Ounces/sec) (necessary)
+<br>
+      31052 001 2nd Material Fill/Pack Switch Point (% Filled Volume)
+      = 1.00e+02  (necessary)
+<br>
+      31053 101 2nd Material Pressure Holding Time
+      = 1.00e+01  (necessary)
+<br>
+      31054 101 2nd Material Total Time in Pack Stage
+      = 2.00e+01  (necessary)
+<br>
+      31055 001 Initial Conversion (x: 0 ~ 100, for Type "1")
+      = 0.00e+00  (necessary)
+<br>
+<br>   /*===============================================================
+<br>    *	Flow-rate control type
+<br>    *	0: None (Pressure control will be used)
+<br>    *	1: abs. profile using max. mach. injection rate
+<br>    *		(X: % filled volume, Y: % of max. injection flow rate)
+<br>    *	2: rel. profile using specified filling time
+<br>    *		(X: % of filling time, Y: % of rel. flow rate)
+<br>    *(A). No. of profile points for screw speed control
+<br>    *(B). profile data for % volume or time
+<br>    *(C). profile data for % flow rate
+<br>    *==============================================================*/
+<br>     Filling flow rate profile (necessary)
+<br>     2 100
+<br>     A     6
+<br>     B    0.00   20.00   40.00   60.00   80.00  100.00
+<br>     C   20.00   20.00   20.00   20.00   20.00   20.00
+<br>
+<br>   /*===============================================================
+<br>    *	Pressure control type
+<br>    *	1: abs. profile to max. machine P
+<br>    *		(X: % of packing time, Y: % of max. machine pressure)
+<br>    *	2: relative profile to entrance P(F/P swich pt.)
+<br>    *		(X: % of packing time, Y: % of entrance pressure)
+<br>    *(A). No. of profile points for P control
+<br>    *(B). profile data for % packing time
+<br>    *(C). profile data for % pressure
+<br>    *==============================================================*/
+<br>     Packing pressure profile (necessary)
+<br>     2 100
+<br>     A    6
+<br>     B    0.00   20.00   40.00   60.00   80.00  100.00
+<br>     C   80.00   80.00   80.00   40.00   40.00   40.00
+<br>
+<br>   /*===============================================================
+<br>    *	Trasient mold wall temperature profile setting
+<br>    *	1: Mold wall temperature profile
+<br>    *		(X: % in filling time + total packing time, Y: Mold wall temperature)
+<br>    *(A). No. of profile points for mold wall T
+<br>    *(B). profile data for % (filling time + total packing time)
+<br>    *(C). profile data for mold wall T
+<br>    *==============================================================*/
+<br>     Transient mold wall temperature profile (option)
+<br>     2 100
+<br>     A     6
+<br>     B    0.00   20.00   40.00   60.00   80.00  100.00
+<br>     C   80.00   80.00   80.00   80.00   80.00   80.00
+
+<br>
+<br>
+      31001 101 Filling Time
+      = 1.00e+01  (necessary)
+<br>
+      31002 202 Main Material Melt Temperature
+      = 2.50e+02  (4.82e+02 oF) (necessary)
+<br>
+      31003 202 Mold Wall Temperature
+      = 8.00e+01  (1.76e+02 oF) (necessary)
+<br>
+      31004 203 Injection Pressure Limit
+      = 8.20e+01  (1.19e+04 psi) (necessary)
+<br>
+      31005 206 Flow Rate Limit
+      = 4.00e+02  (1.35e+01 Ounces/sec) (necessary)
+<br>
+      31006 001 Fill/Pack Switch Point (% Filled Volume)
+      = 1.00e+02  (necessary)
+<br>
+      31007 000 Post-filling (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31008 101 Pressure Holding Time
+      = 1.25e+01  (necessary)
+<br>
+      31009 101 Total Time in Pack Stage
+      = 1.00e+02  (necessary)
+<br>
+      31010 000 Residual Stress Calculation (1: Yes, 0: No)
+      = 1.00e+00  (necessary)
+<br>
+      31011 000 Fiber Orientation Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31012 000 Fiber % by Weight or Volume (1: Weight, 2: Volume)
+      = 1.00e+00  (necessary)
+<br>
+      31013 001 Fiber % (from 0 to 100)
+      = 0.00e+00  (necessary)
+<br>
+      31014 000 Co-Injection (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31015 202 2nd Material Melt Temperature
+      = 2.30e+02  (4.46e+02 oF) (necessary)
+<br>
+      31016 000 Reactive Control Type (1: Conversion, 2: Time)
+      = 1.00e+00  (necessary)
+<br>
+      31017 001 Reactive Eject Conversion (x: 0 ~ 100, for Type "1")
+      = 8.00e+01  (necessary)
+<br>
+      31019 000 Multi general Gate Flow-rate/Press control (0: Equivalent, 1: Automatic)
+      = 1.00e+00  (necessary)
+<br>
+      31018 000 Gravity Downward Direction(+/-(X,Y,Z): +/-(1,2,3))
+      = -3.00e+00  (necessary)
+<br>
+      31023 000 Injection Domain
+      = 0.00e+00  (necessary)
+<br>
+      31024 000 Injection System
+      = 1.00e+00  (necessary)
+<br>
+      31025 000 Viscoelastic Birefringence Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31027 000 Auto Filling Time (1: Yes, 0: No)
+      = 1.00e+00 <br>
+      31028 000 Auto Packing Time (1: Yes, 0: No)
+      = 1.00e+00 <br>
+      31033 000 Venting Analysis (1: Yes, 0: No)
+      = 1.00e+00  (necessary)
+<br>
+      31034 203 Cavity Initial Air Pressure
+      = 1.01e-01  (1.47e+01 psi) (necessary)
+<br>
+      31035 202 Cavity Initial Air Temperature
+      = 3.00e+01  (8.60e+01 oF) (necessary)
+<br>
+      31036 000 Gold Wire Analysis(1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31037 000 Mold-Melt Heat Transfer Coefficient  (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31038 212 Mold-Melt Heat Transfer Coefficient : Filling stage
+      = 2.50e+03  (necessary)
+<br>
+      31039 212 Mold-Melt Heat Transfer Coefficient : Packing stage
+      = 2.50e+03  (necessary)
+<br>
+      31040 212 Mold-Melt Heat Transfer Coefficient : Detached stage(P=0)
+      = 2.50e+03  (necessary)
+<br>
+      31041 000 MicroCellular Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31042 000 MicroCellular Material (1: N2 SCF, 2: CO2 SCF)
+      = 1.00e+00  (necessary)
+<br>
+      31043 001 MicroCellular Foaming Switch Point (% Filled Volume)
+      = 9.70e+01  (necessary)
+<br>
+      31044 001 MicroCellular SCF (Supercritical Fluid) Concentration Weight % (g-SCF/g-Resin)
+      = 5.00e-01  (necessary)
+<br>
+      31045 000 Crystallization Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31046 000 Temperature Criteria for Short Shots (1: Yes, 0: No)
+      = 1.00e+00  (necessary)
+<br>
+      31047 202 Temperature Criteria for Short Shots
+      = 1.00e+02  (necessary)
+<br>
+      31048 204 Clamp Force Limit
+      = 6.00e+01  (necessary)
+<br>
+      31049 000 Suspension Particle Concentration Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31050 203 2nd Material Injection Pressure Limit
+      = 1.00e+02  (1.45e+04 psi) (necessary)
+<br>
+      31051 206 2nd Material Injection Flow Rate Limit
+      = 1.94e+02  (6.56e+00 Ounces/sec) (necessary)
+<br>
+      31052 001 2nd Material Fill/Pack Switch Point (% Filled Volume)
+      = 1.00e+02  (necessary)
+<br>
+      31053 101 2nd Material Pressure Holding Time
+      = 1.00e+01  (necessary)
+<br>
+      31054 101 2nd Material Total Time in Pack Stage
+      = 2.00e+01  (necessary)
+<br>
+      31055 001 Initial Conversion (x: 0 ~ 100, for Type "1")
+      = 0.00e+00  (necessary)
+<br>
+<br>   /*===============================================================
+<br>    *	Flow-rate control type
+<br>    *	0: None (Pressure control will be used)
+<br>    *	1: abs. profile using max. mach. injection rate
+<br>    *		(X: % filled volume, Y: % of max. injection flow rate)
+<br>    *	2: rel. profile using specified filling time
+<br>    *		(X: % of filling time, Y: % of rel. flow rate)
+<br>    *(A). No. of profile points for screw speed control
+<br>    *(B). profile data for % volume or time
+<br>    *(C). profile data for % flow rate
+<br>    *==============================================================*/
+<br>     Filling flow rate profile (necessary)
+<br>     2 100
+<br>     A     6
+<br>     B    0.00   20.00   40.00   60.00   80.00  100.00
+<br>     C   20.00   20.00   20.00   20.00   20.00   20.00
+<br>
+<br>   /*===============================================================
+<br>    *	Pressure control type
+<br>    *	1: abs. profile to max. machine P
+<br>    *		(X: % of packing time, Y: % of max. machine pressure)
+<br>    *	2: relative profile to entrance P(F/P swich pt.)
+<br>    *		(X: % of packing time, Y: % of entrance pressure)
+<br>    *(A). No. of profile points for P control
+<br>    *(B). profile data for % packing time
+<br>    *(C). profile data for % pressure
+<br>    *==============================================================*/
+<br>     Packing pressure profile (necessary)
+<br>     2 100
+<br>     A    6
+<br>     B    0.00   20.00   40.00   60.00   80.00  100.00
+<br>     C   80.00   80.00   80.00   40.00   40.00   40.00
+<br>
+<br>   /*===============================================================
+<br>    *	Trasient mold wall temperature profile setting
+<br>    *	1: Mold wall temperature profile
+<br>    *		(X: % in filling time + total packing time, Y: Mold wall temperature)
+<br>    *(A). No. of profile points for mold wall T
+<br>    *(B). profile data for % (filling time + total packing time)
+<br>    *(C). profile data for mold wall T
+<br>    *==============================================================*/
+<br>     Transient mold wall temperature profile (option)
+<br>     2 100
+<br>     A     6
+<br>     B    0.00   20.00   40.00   60.00   80.00  100.00
+<br>     C   80.00   80.00   80.00   80.00   80.00   80.00
+
+<br>
+<br>
+      31001 101 Filling Time
+      = 1.00e+01  (necessary)
+<br>
+      31002 202 Main Material Melt Temperature
+      = 2.50e+02  (4.82e+02 oF) (necessary)
+<br>
+      31003 202 Mold Wall Temperature
+      = 8.00e+01  (1.76e+02 oF) (necessary)
+<br>
+      31004 203 Injection Pressure Limit
+      = 8.20e+01  (1.19e+04 psi) (necessary)
+<br>
+      31005 206 Flow Rate Limit
+      = 4.00e+02  (1.35e+01 Ounces/sec) (necessary)
+<br>
+      31006 001 Fill/Pack Switch Point (% Filled Volume)
+      = 1.00e+02  (necessary)
+<br>
+      31007 000 Post-filling (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31008 101 Pressure Holding Time
+      = 1.25e+01  (necessary)
+<br>
+      31009 101 Total Time in Pack Stage
+      = 1.00e+02  (necessary)
+<br>
+      31010 000 Residual Stress Calculation (1: Yes, 0: No)
+      = 1.00e+00  (necessary)
+<br>
+      31011 000 Fiber Orientation Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31012 000 Fiber % by Weight or Volume (1: Weight, 2: Volume)
+      = 1.00e+00  (necessary)
+<br>
+      31013 001 Fiber % (from 0 to 100)
+      = 0.00e+00  (necessary)
+<br>
+      31014 000 Co-Injection (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31015 202 2nd Material Melt Temperature
+      = 2.30e+02  (4.46e+02 oF) (necessary)
+<br>
+      31016 000 Reactive Control Type (1: Conversion, 2: Time)
+      = 1.00e+00  (necessary)
+<br>
+      31017 001 Reactive Eject Conversion (x: 0 ~ 100, for Type "1")
+      = 8.00e+01  (necessary)
+<br>
+      31019 000 Multi general Gate Flow-rate/Press control (0: Equivalent, 1: Automatic)
+      = 1.00e+00  (necessary)
+<br>
+      31018 000 Gravity Downward Direction(+/-(X,Y,Z): +/-(1,2,3))
+      = -3.00e+00  (necessary)
+<br>
+      31023 000 Injection Domain
+      = 0.00e+00  (necessary)
+<br>
+      31024 000 Injection System
+      = 2.00e+00  (necessary)
+<br>
+      31025 000 Viscoelastic Birefringence Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31027 000 Auto Filling Time (1: Yes, 0: No)
+      = 1.00e+00 <br>
+      31028 000 Auto Packing Time (1: Yes, 0: No)
+      = 1.00e+00 <br>
+      31033 000 Venting Analysis (1: Yes, 0: No)
+      = 1.00e+00  (necessary)
+<br>
+      31034 203 Cavity Initial Air Pressure
+      = 1.01e-01  (1.47e+01 psi) (necessary)
+<br>
+      31035 202 Cavity Initial Air Temperature
+      = 3.00e+01  (8.60e+01 oF) (necessary)
+<br>
+      31036 000 Gold Wire Analysis(1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31037 000 Mold-Melt Heat Transfer Coefficient  (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31038 212 Mold-Melt Heat Transfer Coefficient : Filling stage
+      = 2.50e+03  (necessary)
+<br>
+      31039 212 Mold-Melt Heat Transfer Coefficient : Packing stage
+      = 2.50e+03  (necessary)
+<br>
+      31040 212 Mold-Melt Heat Transfer Coefficient : Detached stage(P=0)
+      = 2.50e+03  (necessary)
+<br>
+      31041 000 MicroCellular Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31042 000 MicroCellular Material (1: N2 SCF, 2: CO2 SCF)
+      = 1.00e+00  (necessary)
+<br>
+      31043 001 MicroCellular Foaming Switch Point (% Filled Volume)
+      = 9.70e+01  (necessary)
+<br>
+      31044 001 MicroCellular SCF (Supercritical Fluid) Concentration Weight % (g-SCF/g-Resin)
+      = 5.00e-01  (necessary)
+<br>
+      31045 000 Crystallization Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31046 000 Temperature Criteria for Short Shots (1: Yes, 0: No)
+      = 1.00e+00  (necessary)
+<br>
+      31047 202 Temperature Criteria for Short Shots
+      = 1.00e+02  (necessary)
+<br>
+      31048 204 Clamp Force Limit
+      = 6.00e+01  (necessary)
+<br>
+      31049 000 Suspension Particle Concentration Calculation (1: Yes, 0: No)
+      = 0.00e+00  (necessary)
+<br>
+      31050 203 2nd Material Injection Pressure Limit
+      = 1.00e+02  (1.45e+04 psi) (necessary)
+<br>
+      31051 206 2nd Material Injection Flow Rate Limit
+      = 1.94e+02  (6.56e+00 Ounces/sec) (necessary)
+<br>
+      31052 001 2nd Material Fill/Pack Switch Point (% Filled Volume)
+      = 1.00e+02  (necessary)
+<br>
+      31053 101 2nd Material Pressure Holding Time
+      = 1.00e+01  (necessary)
+<br>
+      31054 101 2nd Material Total Time in Pack Stage
+      = 2.00e+01  (necessary)
+<br>
+      31055 001 Initial Conversion (x: 0 ~ 100, for Type "1")
+      = 0.00e+00  (necessary)
+<br>
+<br>   /*===============================================================
+<br>    *	Flow-rate control type
+<br>    *	0: None (Pressure control will be used)
+<br>    *	1: abs. profile using max. mach. injection rate
+<br>    *		(X: % filled volume, Y: % of max. injection flow rate)
+<br>    *	2: rel. profile using specified filling time
+<br>    *		(X: % of filling time, Y: % of rel. flow rate)
+<br>    *(A). No. of profile points for screw speed control
+<br>    *(B). profile data for % volume or time
+<br>    *(C). profile data for % flow rate
+<br>    *==============================================================*/
+<br>     Filling flow rate profile (necessary)
+<br>     2 100
+<br>     A     6
+<br>     B    0.00   20.00   40.00   60.00   80.00  100.00
+<br>     C   20.00   20.00   20.00   20.00   20.00   20.00
+<br>
+<br>   /*===============================================================
+<br>    *	Pressure control type
+<br>    *	1: abs. profile to max. machine P
+<br>    *		(X: % of packing time, Y: % of max. machine pressure)
+<br>    *	2: relative profile to entrance P(F/P swich pt.)
+<br>    *		(X: % of packing time, Y: % of entrance pressure)
+<br>    *(A). No. of profile points for P control
+<br>    *(B). profile data for % packing time
+<br>    *(C). profile data for % pressure
+<br>    *==============================================================*/
+<br>     Packing pressure profile (necessary)
+<br>     2 100
+<br>     A    6
+<br>     B    0.00   20.00   40.00   60.00   80.00  100.00
+<br>     C   80.00   80.00   80.00   40.00   40.00   40.00
+<br>
+<br>   /*===============================================================
+<br>    *	Trasient mold wall temperature profile setting
+<br>    *	1: Mold wall temperature profile
+<br>    *		(X: % in filling time + total packing time, Y: Mold wall temperature)
+<br>    *(A). No. of profile points for mold wall T
+<br>    *(B). profile data for % (filling time + total packing time)
+<br>    *(C). profile data for mold wall T
+<br>    *==============================================================*/
+<br>     Transient mold wall temperature profile (option)
+<br>     2 100
+<br>     A     6
+<br>     B    0.00   20.00   40.00   60.00   80.00  100.00
+<br>     C   80.00   80.00   80.00   80.00   80.00   80.00
+<br>
+
+<br>
+ # Material data information ......                
+
+
+[First_Kind]
+<br>   Group_No                   =  1
+<br>   Material_No                =  1
+<br>   Material_Name              =  ABS
+<br>   Product_Name               =  Generic material / Generic ABS       | 2.300000e+02     5.000000e+01     9.000000e+01 | Type:0
+
+<br>   Melt_Temp                  =  230.00
+<br>   Mold_Temp                  =  50.00
+<br>   Eject_Temp                 =  90.00
+<br>   Glass_Temp                 =  1  1.00e+02
+<br>   Specific_Heat              =  1  2.40e+07
+<br>   Conductivity               =  1  1.80e+04
+<br>   Viscosity                  =  7  2.21e+13  3.78e+02  0.00e+00  2.88e+01  5.16e+01  7.24e+05  2.35e-01
+<br>   Density                    =  13  9.49e-01  6.20e-04  1.72e+09  4.17e-03  9.49e-01  2.64e-04  2.56e+09  3.72e-03  3.70e+02  2.94e-08  0.00e+00  0.00e+00  0.00e+00
+<br>   Shear_Modulus              =  -1
+<br>                                 -1
+<br>   Thermal_Volume_Expans_Coeff=  2  8.00e-05  8.00e-05
+<br>   Young_Modulus              =  2  2.25e+10  2.25e+10
+<br>   Poisson_Ratio              =  2  3.90e-01  3.90e-01
+<br>   Curing_Kinetics            =  -1
+<br>   NoFlow_Temp                =  -1
+<br>   Melt_Flow_Rate_Index       =  1  35.00
+<br>   Fiber                      =  -1
+<br>   Max_Shear_Rate             =  1  50000.00
+<br>   Max_Shear_Stress           =  1  3000000.00
+<br>   MaxMin_MeltMold_Temp       =  4  280.00  200.00  80.00  25.00
+<br>   Stress_Optic_Coeff         =  -1
+<br>   Leonov_VE_Data             =  -1
+<br>   Leonov_VE_WLF              =  -1
+<br>   Parallel_Shear_Modulus     =  1  8.09e+09
+<br>   Crystallization_Kinetics   =  -1
+<br>   Data_Source                =  1   SIMPOE   
+<br>   Juncture_Loss_Coeff        =  -1
+<br>   Solid_Density				=  -1
+<br>   Cured_Density				=  -1
+
+[First_Kind]
+<br>   Group_No                   =  1
+<br>   Material_No                =  1
+<br>   Material_Name              =  ABS
+<br>   Product_Name               =  Generic material / Generic ABS       | 2.300000e+02     5.000000e+01     9.000000e+01 | Type:0
+
+<br>   Melt_Temp                  =  230.00
+<br>   Mold_Temp                  =  50.00
+<br>   Eject_Temp                 =  90.00
+<br>   Glass_Temp                 =  1  1.00e+02
+<br>   Specific_Heat              =  1  2.40e+07
+<br>   Conductivity               =  1  1.80e+04
+<br>   Viscosity                  =  7  2.21e+13  3.78e+02  0.00e+00  2.88e+01  5.16e+01  7.24e+05  2.35e-01
+<br>   Density                    =  13  9.49e-01  6.20e-04  1.72e+09  4.17e-03  9.49e-01  2.64e-04  2.56e+09  3.72e-03  3.70e+02  2.94e-08  0.00e+00  0.00e+00  0.00e+00
+<br>   Shear_Modulus              =  -1
+<br>                                 -1
+<br>   Thermal_Volume_Expans_Coeff=  2  8.00e-05  8.00e-05
+<br>   Young_Modulus              =  2  2.25e+10  2.25e+10
+<br>   Poisson_Ratio              =  2  3.90e-01  3.90e-01
+<br>   Curing_Kinetics            =  -1
+<br>   NoFlow_Temp                =  -1
+<br>   Melt_Flow_Rate_Index       =  1  35.00
+<br>   Fiber                      =  -1
+<br>   Max_Shear_Rate             =  1  50000.00
+<br>   Max_Shear_Stress           =  1  3000000.00
+<br>   MaxMin_MeltMold_Temp       =  4  280.00  200.00  80.00  25.00
+<br>   Stress_Optic_Coeff         =  -1
+<br>   Leonov_VE_Data             =  -1
+<br>   Leonov_VE_WLF              =  -1
+<br>   Parallel_Shear_Modulus     =  1  8.09e+09
+<br>   Crystallization_Kinetics   =  -1
+<br>   Data_Source                =  1   SIMPOE   
+<br>   Juncture_Loss_Coeff        =  -1
+<br>   Solid_Density				=  -1
+<br>   Cured_Density				=  -1
+
+[First_Kind]
+<br>   Group_No                   =  1
+<br>   Material_No                =  1
+<br>   Material_Name              =  ABS
+<br>   Product_Name               =  Generic material / Generic ABS       | 2.300000e+02     5.000000e+01     9.000000e+01 | Type:0
+
+<br>   Melt_Temp                  =  230.00
+<br>   Mold_Temp                  =  50.00
+<br>   Eject_Temp                 =  90.00
+<br>   Glass_Temp                 =  1  1.00e+02
+<br>   Specific_Heat              =  1  2.40e+07
+<br>   Conductivity               =  1  1.80e+04
+<br>   Viscosity                  =  7  2.21e+13  3.78e+02  0.00e+00  2.88e+01  5.16e+01  7.24e+05  2.35e-01
+<br>   Density                    =  13  9.49e-01  6.20e-04  1.72e+09  4.17e-03  9.49e-01  2.64e-04  2.56e+09  3.72e-03  3.70e+02  2.94e-08  0.00e+00  0.00e+00  0.00e+00
+<br>   Shear_Modulus              =  -1
+<br>                                 -1
+<br>   Thermal_Volume_Expans_Coeff=  2  8.00e-05  8.00e-05
+<br>   Young_Modulus              =  2  2.25e+10  2.25e+10
+<br>   Poisson_Ratio              =  2  3.90e-01  3.90e-01
+<br>   Curing_Kinetics            =  -1
+<br>   NoFlow_Temp                =  -1
+<br>   Melt_Flow_Rate_Index       =  1  35.00
+<br>   Fiber                      =  -1
+<br>   Max_Shear_Rate             =  1  50000.00
+<br>   Max_Shear_Stress           =  1  3000000.00
+<br>   MaxMin_MeltMold_Temp       =  4  280.00  200.00  80.00  25.00
+<br>   Stress_Optic_Coeff         =  -1
+<br>   Leonov_VE_Data             =  -1
+<br>   Leonov_VE_WLF              =  -1
+<br>   Parallel_Shear_Modulus     =  1  8.09e+09
+<br>   Crystallization_Kinetics   =  -1
+<br>   Data_Source                =  1   SIMPOE   
+<br>   Juncture_Loss_Coeff        =  -1
+<br>   Solid_Density				=  -1
+<br>   Cured_Density				=  -1
+<br>
+<br>    NonConformFace=0   NonConformNode=0
+<br>   ** COOL results file 'filename.TWL3'(Transient Wall Temperature) does not exist
+<br>   ** COOL results file 'filename.WL1/WL2/WL3'(Cycle Averaged Wall Temperature) does not exist
+<br>
+<br>    Part total volume               	=  51.940 cm3 
+<br>
+<br>    No. of Injection & Insert Domain	= 1
+<br>    No. of Injection Domain         	= 1
+<br>      Domain   1 : Injection Domain, Cell Number	= 19463
+<br>
+<br>    For Injection Domain:  1
+<br>      Domain volume                    	=  51.940 cm3 
+<br>
+<br>      Injection system  1 - 
+<br>        Inlet flow rate      		=   1.731 cm3/sec 
+<br>        Inlet normal velocity		=  24.708 cm/sec 
+<br>        Inlet region area    		=   0.070 cm2 
+<br>        Inlet Reynolds No.   		= 0.004848
+
+<br>      Injection system  2 - 
+<br>        Inlet flow rate      		=   1.731 cm3/sec 
+<br>        Inlet normal velocity		=  24.679 cm/sec 
+<br>        Inlet region area    		=   0.070 cm2 
+<br>        Inlet Reynolds No.   		= 0.004845
+
+<br>      Injection system  3 - 
+<br>        Inlet flow rate      		=   1.731 cm3/sec 
+<br>        Inlet normal velocity		=  56.998 cm/sec 
+<br>        Inlet region area    		=   0.030 cm2 
+<br>        Inlet Reynolds No.   		= 0.007363
+
+<br>
+<br>
+ # FILL ANALYSIS #
+<BR>&nbsp;
+<br>
+<br> FILL Analysis Wall Time  : 46.21 sec
+<br>        Solver Wall Time  : 35.21 sec ( 17.94 sec | 14.05 sec | 3.22 sec )
+<br>        Other Wall Time   : 11.00 sec ( 1.30 sec | 0.09 sec | 9.61 sec ) 
+<br>
+<br> FILL Analysis CPU Time   : 561.13 sec
+<br>        Solver CPU Time   : 441.23 sec ( 209.17 sec | 184.69 sec | 47.38 sec )
+<br>        Other CPU Time    : 119.89 sec
+<br>
+  Cooling time calculation ...
+<br>     Processing ... 10 %
+<br>     Processing ... 20 %
+<br>     Processing ... 30 %
+<br>     Processing ... 40 %
+<br>     Processing ... 50 %
+<br>     Processing ... 60 %
+<br>     Processing ... 70 %
+<br>     Processing ... 80 %
+<br>     Processing ... 90 %
+<br>     Processing ... 100 %
+<br>
+  Sink mark calculation ...
+<br>     1/3 processing is done ...
+<br>     2/3 processing is done ...
+<br>     3/3 processing is done ... 
+<br>
+  Print Fill Results
+<br>
+<b>
+<br>
+    Domain  1 : Filling stage results summary : 
+
+<br> ------------------------------------------------------------------------------------------------
+<br>      Run a Pack simulation to obtain Max. Clamp force value.
+
+<br>    11003 : X direction clamping force    = 3.381681e-01 Tonne (3.73e-01 Ton U.S)
+<br>    11004 : Y direction clamping force    = 4.211605e-01 Tonne (4.64e-01 Ton U.S)
+<br>    11005 : Z direction clamping force    = 2.497574e-01 Tonne (2.75e-01 Ton U.S)
+<br>    25001 : Required injection pressure   = 2.089276e+00 Mpa (3.03e+02 psi)
+<br>    Required pressure at end of fill(98% volume filled) = 2.086723e+00 MPa (3.03e+02 psi)
+<br>    25005 : Max. real temperature         = 2.503250e+02 oC  (4.83e+02 oF)
+<br>    25004 : Max. bulk temperature         = 2.503246e+02 oC  (4.83e+02 oF)
+<br>    25006 : Max. shear stress             = 3.200145e-01 Mpa (4.64e+01 psi)
+<br>    25007 : Max. shear rate               = 5.431125e+02 1/sec
+<br>    Filling end time                      = 9.122918
+<br>    Total time                            = 9.122918
+<br>    Part mass at filling end            = 50.795065 g
+<br> ------------------------------------------------------------------------------------------------
+</b>
+<br>
+  Print Fill Results finish
+<br>
+  ==========================
+<br>  Welding line calculation ...
+<br>  ==========================
+<br>
+# Filling stage has completed #
+<BR>&nbsp;
+<br> Total Wall Time     : 52.64 sec
+<br>    Solver Wall Time : 38.42 sec ( 17.94 sec | 14.05 sec | 6.43 sec )
+<br>    Other Wall Time  : 14.21 sec
+<br>
+<br> Total CPU Time      : 624.78 sec
+<br>   Solver CPU Time   : 491.33 sec ( 209.17 sec | 184.69 sec | 97.47 sec )
+<br>   Other CPU Time    : 133.45 sec
+<br> Report File - C:\Users\nrand\OneDrive - Olin College of Engineering\Desktop\Electric_Fence\Insulator_v9\Default\Default.KD3
+<br>_______________________________________________________________________________
+
+<br>###  Solid FILL-PACK V2023 Analysis has Completed   ###
+</font> 
+</HTML>
