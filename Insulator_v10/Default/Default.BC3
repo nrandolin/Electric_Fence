@@ -1,0 +1,117 @@
+[Node_Elem_Info]
+6812
+19463
+[EOF]
+
+[Gate_Info]
+ 963     2  0.40     0.00     100.00   100.00   100.00   0.00     0.00     (1871 1872 1899 1900 1917 1918 1825 1826 1866 1868 1865 1867 1905 1906 1869 1870 1902 1903 1938 1939 1940 1941 1960 1961 1947 1948 )
+ 631     2  0.40     0.00     100.00   100.00   100.00   1.00     0.00     (1202 1203 1232 1251 1274 1275 1135 1136 1184 1189 1187 1188 1245 1250 1185 1186 1241 1242 1298 1299 1306 1307 1334 1335 1311 1309 )
+1519     2  0.30     0.00     100.00   100.00   100.00   2.00     0.00     (2981 2982 2983 2985 2980 3007 3009 3010 2925 2926 2954 2957 2984 2998 3011 3013 )
+[EOF]
+
+[Valve_Gate_Info]
+0
+[EOF]
+
+[Valve_Gate_Info_2_Ver1]
+0
+[EOF]
+
+[Warp_InertiaRelief]
+1
+[EOF]
+
+[Warp_FixBC]
+158
+1
+1895
+[EOF]
+
+[Runner_Elem]
+0
+[EOF]
+
+[Hot_Runner_Elem]
+0
+[EOF]
+
+[Coolant_Info]
+0
+[EOF]
+
+[Coolant_Info_2]
+0
+[EOF]
+
+[Air_Vents_Info]
+9
+199 1
+329 1
+537 1
+539 1
+1133 1
+4955 1
+5585 1
+7091 1
+7203 1
+[EOF]
+
+[Air_Vents_Info_2]
+9
+100
+165
+269
+270
+567
+2478
+2793
+3546
+3602
+[EOF]
+
+[Mold_Wall_Info_Sym]
+0
+[EOF]
+
+[Mold_Wall_Info_Sym_2]
+0 0
+[EOF]
+
+[CFDcoolant_Info]
+0
+[EOF]
+
+[CFDcoolant_Info_2]
+0
+[EOF]
+
+[COOL_HeatCoil_Info]
+0
+[EOF]
+
+[CoreShift_Info]
+0
+[EOF]
+
+[CoreShift_Info_2]
+0
+[EOF]
+
+[Mold_Wall_Info]
+0
+[EOF]
+
+[Mold_Wall_Info_2]
+0
+[EOF]
+
+[ClampForce_Info]
+0 0.000000 0.000000 1.000000
+0
+[EOF]
+
+[ClampForce_Info_2]
+3 0 0 0 0.000000 0.000000 1.000000
+0
+[EOF]
+

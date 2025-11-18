@@ -1,0 +1,10 @@
+
+    Setting up boundary condition on gate ID = 1
+
+    Setting up boundary condition on gate ID = 2
+
+    Setting up boundary condition on gate ID = 3
+# FLOW ANALYSIS #
+   Fill time at 30 ms, part is 0 % filled, flow-rate is 0.467917 (cc/s),  Average Speed = 12.753929 (mm/s),  Pressure = 0.000048 (MPa)   Fill time at 2160 ms, part is 21 % filled, flow-rate is 5.459026 (cc/s),  Average Speed = 7.261541 (mm/s),  Pressure = 0.003602 (MPa)   Fill time at 3230 ms, part is 32 % filled, flow-rate is 5.459026 (cc/s),  Average Speed = 8.107235 (mm/s),  Pressure = 0.004787 (MPa)   Fill time at 5350 ms, part is 53 % filled, flow-rate is 5.459026 (cc/s),  Average Speed = 6.707616 (mm/s),  Pressure = 0.007765 (MPa)   Fill time at 7640 ms, part is 76 % filled, flow-rate is 5.459026 (cc/s),  Average Speed = 46.312818 (mm/s),  Pressure = 0.031936 (MPa)   Fill time at 7730 ms, part is 77 % filled, flow-rate is 5.459026 (cc/s),  Average Speed = 47.227362 (mm/s),  Pressure = 0.032808 (MPa)   Fill time at 8220 ms, part is 82 % filled, flow-rate is 5.459026 (cc/s),  Average Speed = 34.369560 (mm/s),  Pressure = 0.036519 (MPa)   Fill time at 9610 ms, part is 96 % filled, flow-rate is 4.162724 (cc/s),  Average Speed = 47.379650 (mm/s),  Pressure = 0.050411 (MPa)   Fill time at 9800 ms, part is 97 % filled, flow-rate is 1.923657 (cc/s),  Average Speed = 38.463532 (mm/s),  Pressure = 0.054024 (MPa)   Fill time at 9980 ms, part is 99 % filled, flow-rate is 0.894240 (cc/s),  Average Speed = 46.730163 (mm/s),  Pressure = 0.056713 (MPa)   Fill time at 10001 ms, part is 100 % filled, flow-rate is 0.779861 (cc/s),  Average Speed = 159.571606 (mm/s),  Pressure = 0.058796 (MPa)
+    Analysis completed.
+    Injection Pressure = 0.058796 (MPa), this part is 100% filled.
