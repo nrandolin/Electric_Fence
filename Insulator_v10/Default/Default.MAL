@@ -29,7 +29,7 @@
    Leonov_VE_WLF              =  -1
    Parallel_Shear_Modulus     =  1   8.093525e+09    | Flag:1
    Crystallization_Kinetics   =  -1
-   Data_Source                =  1   SIMPOE
+   Data_Source                =  1   SIMPOE   
    Juncture_Loss_Coeff        =  -1
    Solid_Density				=  -1
    Cured_Density				=  -1
@@ -100,7 +100,7 @@
    Leonov_VE_WLF              =  -1
    Parallel_Shear_Modulus     =  1   8.093525e+09    | Flag:1
    Crystallization_Kinetics   =  -1
-   Data_Source                =  1   SIMPOE
+   Data_Source                =  1   SIMPOE   
    Juncture_Loss_Coeff        =  -1
    Solid_Density				=  -1
    Cured_Density				=  -1
@@ -171,7 +171,7 @@
    Leonov_VE_WLF              =  -1
    Parallel_Shear_Modulus     =  1   8.093525e+09    | Flag:1
    Crystallization_Kinetics   =  -1
-   Data_Source                =  1   SIMPOE
+   Data_Source                =  1   SIMPOE   
    Juncture_Loss_Coeff        =  -1
    Solid_Density				=  -1
    Cured_Density				=  -1

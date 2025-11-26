@@ -14,8 +14,8 @@
 <br> ** FILL_E Report/Record File **
 
 <BR>&nbsp;
-<br> Date/time : 2025/11/17  14:35:44
-<br> File path : C:\Users\nrand\OneDrive - Olin College of Engineering\Desktop\Electric_Fence\Insulator_v9\Default\Default
+<br> Date/time : 2025/11/18  13:57:01
+<br> File path : C:\Users\nrand\OneDrive - Olin College of Engineering\Desktop\Electric_Fence\Insulator_v10\Default\Default
 <br> Software type : x64
 <br>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 <br>
@@ -105,9 +105,9 @@
  # Geometric data information ......          
 </b>
 <br>
-<br>    Part Max. Extent	= 12.79  cm (x: 12.787526  y: 7.984869  z: 2.032000)
-<br>    Number of Cells 	= 19463  (Hexa=0,  Prism=7632,  Pyramid=0,  Tetra=11831)
-<br>    Number of Nodes 	= 6812
+<br>    Part Max. Extent	= 11.59  cm (x: 11.590930  y: 7.980879  z: 2.032000)
+<br>    Number of Cells 	= 19309  (Hexa=0,  Prism=7584,  Pyramid=0,  Tetra=11725)
+<br>    Number of Nodes 	= 6760
 <br>
 <b>
 <br>
@@ -161,7 +161,7 @@
 <br>
 <br>
       31001 101 Filling Time
-      = 1.00e+01  (necessary)
+      = 9.89e+00  (necessary)
 <br>
       31002 202 Main Material Melt Temperature
       = 2.50e+02  (4.82e+02 oF) (necessary)
@@ -182,10 +182,10 @@
       = 0.00e+00  (necessary)
 <br>
       31008 101 Pressure Holding Time
-      = 1.25e+01  (necessary)
+      = 1.20e+01  (necessary)
 <br>
       31009 101 Total Time in Pack Stage
-      = 1.00e+02  (necessary)
+      = 9.95e+01  (necessary)
 <br>
       31010 000 Residual Stress Calculation (1: Yes, 0: No)
       = 1.00e+00  (necessary)
@@ -349,7 +349,7 @@
 <br>
 <br>
       31001 101 Filling Time
-      = 1.00e+01  (necessary)
+      = 9.89e+00  (necessary)
 <br>
       31002 202 Main Material Melt Temperature
       = 2.50e+02  (4.82e+02 oF) (necessary)
@@ -370,10 +370,10 @@
       = 0.00e+00  (necessary)
 <br>
       31008 101 Pressure Holding Time
-      = 1.25e+01  (necessary)
+      = 1.20e+01  (necessary)
 <br>
       31009 101 Total Time in Pack Stage
-      = 1.00e+02  (necessary)
+      = 9.95e+01  (necessary)
 <br>
       31010 000 Residual Stress Calculation (1: Yes, 0: No)
       = 1.00e+00  (necessary)
@@ -537,7 +537,7 @@
 <br>
 <br>
       31001 101 Filling Time
-      = 1.00e+01  (necessary)
+      = 9.89e+00  (necessary)
 <br>
       31002 202 Main Material Melt Temperature
       = 2.50e+02  (4.82e+02 oF) (necessary)
@@ -558,10 +558,10 @@
       = 0.00e+00  (necessary)
 <br>
       31008 101 Pressure Holding Time
-      = 1.25e+01  (necessary)
+      = 1.20e+01  (necessary)
 <br>
       31009 101 Total Time in Pack Stage
-      = 1.00e+02  (necessary)
+      = 9.95e+01  (necessary)
 <br>
       31010 000 Residual Stress Calculation (1: Yes, 0: No)
       = 1.00e+00  (necessary)
@@ -839,45 +839,45 @@
 <br>   ** COOL results file 'filename.TWL3'(Transient Wall Temperature) does not exist
 <br>   ** COOL results file 'filename.WL1/WL2/WL3'(Cycle Averaged Wall Temperature) does not exist
 <br>
-<br>    Part total volume               	=  51.940 cm3 
+<br>    Part total volume               	=  46.679 cm3 
 <br>
 <br>    No. of Injection & Insert Domain	= 1
 <br>    No. of Injection Domain         	= 1
-<br>      Domain   1 : Injection Domain, Cell Number	= 19463
+<br>      Domain   1 : Injection Domain, Cell Number	= 19309
 <br>
 <br>    For Injection Domain:  1
-<br>      Domain volume                    	=  51.940 cm3 
+<br>      Domain volume                    	=  46.679 cm3 
 <br>
 <br>      Injection system  1 - 
-<br>        Inlet flow rate      		=   1.731 cm3/sec 
-<br>        Inlet normal velocity		=  24.708 cm/sec 
+<br>        Inlet flow rate      		=   1.574 cm3/sec 
+<br>        Inlet normal velocity		=  22.460 cm/sec 
 <br>        Inlet region area    		=   0.070 cm2 
-<br>        Inlet Reynolds No.   		= 0.004848
+<br>        Inlet Reynolds No.   		= 0.004407
 
 <br>      Injection system  2 - 
-<br>        Inlet flow rate      		=   1.731 cm3/sec 
-<br>        Inlet normal velocity		=  24.679 cm/sec 
+<br>        Inlet flow rate      		=   1.574 cm3/sec 
+<br>        Inlet normal velocity		=  22.432 cm/sec 
 <br>        Inlet region area    		=   0.070 cm2 
-<br>        Inlet Reynolds No.   		= 0.004845
+<br>        Inlet Reynolds No.   		= 0.004404
 
 <br>      Injection system  3 - 
-<br>        Inlet flow rate      		=   1.731 cm3/sec 
-<br>        Inlet normal velocity		=  56.998 cm/sec 
+<br>        Inlet flow rate      		=   1.574 cm3/sec 
+<br>        Inlet normal velocity		=  51.650 cm/sec 
 <br>        Inlet region area    		=   0.030 cm2 
-<br>        Inlet Reynolds No.   		= 0.007363
+<br>        Inlet Reynolds No.   		= 0.006683
 
 <br>
 <br>
  # FILL ANALYSIS #
 <BR>&nbsp;
 <br>
-<br> FILL Analysis Wall Time  : 46.21 sec
-<br>        Solver Wall Time  : 35.21 sec ( 17.94 sec | 14.05 sec | 3.22 sec )
-<br>        Other Wall Time   : 11.00 sec ( 1.30 sec | 0.09 sec | 9.61 sec ) 
+<br> FILL Analysis Wall Time  : 26.87 sec
+<br>        Solver Wall Time  : 18.45 sec ( 9.15 sec | 6.67 sec | 2.63 sec )
+<br>        Other Wall Time   : 8.43 sec ( 0.94 sec | 0.08 sec | 7.41 sec ) 
 <br>
-<br> FILL Analysis CPU Time   : 561.13 sec
-<br>        Solver CPU Time   : 441.23 sec ( 209.17 sec | 184.69 sec | 47.38 sec )
-<br>        Other CPU Time    : 119.89 sec
+<br> FILL Analysis CPU Time   : 389.70 sec
+<br>        Solver CPU Time   : 290.94 sec ( 135.89 sec | 113.83 sec | 41.22 sec )
+<br>        Other CPU Time    : 98.77 sec
 <br>
   Cooling time calculation ...
 <br>     Processing ... 10 %
@@ -905,18 +905,18 @@
 <br> ------------------------------------------------------------------------------------------------
 <br>      Run a Pack simulation to obtain Max. Clamp force value.
 
-<br>    11003 : X direction clamping force    = 3.381681e-01 Tonne (3.73e-01 Ton U.S)
-<br>    11004 : Y direction clamping force    = 4.211605e-01 Tonne (4.64e-01 Ton U.S)
-<br>    11005 : Z direction clamping force    = 2.497574e-01 Tonne (2.75e-01 Ton U.S)
-<br>    25001 : Required injection pressure   = 2.089276e+00 Mpa (3.03e+02 psi)
-<br>    Required pressure at end of fill(98% volume filled) = 2.086723e+00 MPa (3.03e+02 psi)
-<br>    25005 : Max. real temperature         = 2.503250e+02 oC  (4.83e+02 oF)
-<br>    25004 : Max. bulk temperature         = 2.503246e+02 oC  (4.83e+02 oF)
-<br>    25006 : Max. shear stress             = 3.200145e-01 Mpa (4.64e+01 psi)
-<br>    25007 : Max. shear rate               = 5.431125e+02 1/sec
-<br>    Filling end time                      = 9.122918
-<br>    Total time                            = 9.122918
-<br>    Part mass at filling end            = 50.795065 g
+<br>    11003 : X direction clamping force    = 2.810818e-01 Tonne (3.10e-01 Ton U.S)
+<br>    11004 : Y direction clamping force    = 3.408832e-01 Tonne (3.76e-01 Ton U.S)
+<br>    11005 : Z direction clamping force    = 1.792191e-01 Tonne (1.97e-01 Ton U.S)
+<br>    25001 : Required injection pressure   = 1.911553e+00 Mpa (2.77e+02 psi)
+<br>    Required pressure at end of fill(98% volume filled) = 1.907686e+00 MPa (2.77e+02 psi)
+<br>    25005 : Max. real temperature         = 2.503129e+02 oC  (4.83e+02 oF)
+<br>    25004 : Max. bulk temperature         = 2.503101e+02 oC  (4.83e+02 oF)
+<br>    25006 : Max. shear stress             = 2.554426e-01 Mpa (3.71e+01 psi)
+<br>    25007 : Max. shear rate               = 4.962279e+02 1/sec
+<br>    Filling end time                      = 9.117075
+<br>    Total time                            = 9.117075
+<br>    Part mass at filling end            = 45.622928 g
 <br> ------------------------------------------------------------------------------------------------
 </b>
 <br>
@@ -928,14 +928,14 @@
 <br>
 # Filling stage has completed #
 <BR>&nbsp;
-<br> Total Wall Time     : 52.64 sec
-<br>    Solver Wall Time : 38.42 sec ( 17.94 sec | 14.05 sec | 6.43 sec )
-<br>    Other Wall Time  : 14.21 sec
+<br> Total Wall Time     : 31.61 sec
+<br>    Solver Wall Time : 20.58 sec ( 9.15 sec | 6.67 sec | 4.76 sec )
+<br>    Other Wall Time  : 11.03 sec
 <br>
-<br> Total CPU Time      : 624.78 sec
-<br>   Solver CPU Time   : 491.33 sec ( 209.17 sec | 184.69 sec | 97.47 sec )
-<br>   Other CPU Time    : 133.45 sec
-<br> Report File - C:\Users\nrand\OneDrive - Olin College of Engineering\Desktop\Electric_Fence\Insulator_v9\Default\Default.KD3
+<br> Total CPU Time      : 435.09 sec
+<br>   Solver CPU Time   : 322.80 sec ( 135.89 sec | 113.83 sec | 73.08 sec )
+<br>   Other CPU Time    : 112.30 sec
+<br> Report File - C:\Users\nrand\OneDrive - Olin College of Engineering\Desktop\Electric_Fence\Insulator_v10\Default\Default.KD3
 <br>_______________________________________________________________________________
 
 <br>###  Solid FILL-PACK V2023 Analysis has Completed   ###

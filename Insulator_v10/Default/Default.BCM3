@@ -1,6 +1,6 @@
 [Node_Elem_Info]
-6812
-19463
+6760
+19309
 [EOF]
 
 [Gate_Info]
@@ -19,9 +19,9 @@
 [EOF]
 
 [Warp_FixBC]
-158
-1
-1895
+57
+36
+1893
 [EOF]
 
 [Runner_Elem]
